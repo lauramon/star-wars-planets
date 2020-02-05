@@ -26,3 +26,47 @@ A collection **planet** precisa de criar um index unique para que não se criem 
 *db.planet.createIndex( { "name": 1 }, { unique: true } )*
 
 ## Testes manuais (usei POSTMAN)
+
+### Create Planet SUCCESS
+
+**POST - http://localhost:8080/planets**
+
+![add planet](/images/addPlanetsuccess.jpg)
+
+### Create Planet ERROR DUPLICATE PLANET
+
+**POST - http://localhost:8080/planets**
+
+![add planet error](/images/addPlanetError.jpg)
+
+### Listar Planetas
+
+**GET - http://localhost:8080/planets**
+
+![get planet](/images/listarPlanetas.jpg)
+
+### Buscar planeta por Nome
+
+**GET - http://localhost:8080/planets/search/findByName?name=Bespin**
+
+![get planet by name](/images/findByName.jpg)
+
+### Buscar planeta por ID
+
+**GET - http://localhost:8080/planets/5e3ad071407f54044baa3a29**
+
+![get planet by id](/images/findById.jpg)
+
+### Buscar planeta por ID
+
+**DELETE - http://localhost:8080/planets/5e3ad071407f54044baa3a29**
+
+![del planet by id](/images/deletePlanet.jpg)
+
+
+
+
+
+
+
+
