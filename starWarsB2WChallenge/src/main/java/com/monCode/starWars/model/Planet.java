@@ -74,7 +74,8 @@ public class Planet {
 	}
 	
 	public String toString() {
-		return "Planet {name='" + name + '\'' +
+		return "Planet {id='" + id + '\'' +
+					    ",name='" + name + '\'' +
 						", climate='" + climate + '\'' +
 						", terrain='" + terrain + '\'' +
 						", filmsNumber= '" + filmsNumber + "' }" ;
